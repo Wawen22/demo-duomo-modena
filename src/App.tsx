@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { QRCodeSVG } from 'qrcode.react';
 import {
-  X, ChevronRight, ChevronLeft, ChevronUp, ChevronDown,
+  X, ChevronRight, ChevronLeft,
   Maximize2, Minimize2, Headphones, Map, Info, Settings,
   ZoomIn, ZoomOut, Volume2, MousePointer,
 } from 'lucide-react';
@@ -455,14 +455,7 @@ const App: React.FC = () => {
     if (!document.fullscreenElement) appRef.current?.requestFullscreen();
     else document.exitFullscreen();
   };
-  const pan = (dir: 'up'|'down'|'left'|'right') => {
-    if (!viewerRef.current) return;
-    const v = viewerRef.current; const s = 15;
-    if (dir === 'left')  v.setYaw(v.getYaw() - s);
-    if (dir === 'right') v.setYaw(v.getYaw() + s);
-    if (dir === 'up')    v.setPitch(Math.min(85,  v.getPitch() + s));
-    if (dir === 'down')  v.setPitch(Math.max(-85, v.getPitch() - s));
-  };
+  // ...existing code...
   const zoom = (dir: 'in'|'out') => {
     if (!viewerRef.current) return;
     const h = viewerRef.current.getHfov();
