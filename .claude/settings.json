@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"/home/rnebili/Progetti/TEL&CO/Duomo Modena\" -type f \\\\\\( -iname \"*.jpg\" -o -iname \"*.jpeg\" -o -iname \"*.png\" -o -iname \"*.gif\" -o -iname \"*.svg\" -o -iname \"*.webp\" \\\\\\))"
+    ]
+  }
+}
