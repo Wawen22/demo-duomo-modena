@@ -66,3 +66,4 @@ Sullo schermo del totem interattivo sarà sempre presente un **QR Code dinamico*
 
 **Nota Finale:** Questa soluzione non è solo uno strumento informativo, ma un asset di marketing territoriale che posiziona il Duomo di Modena come un'eccellenza digitale nel patrimonio culturale italiano.
 
+
