@@ -48,7 +48,7 @@ const SCENES: Scene[] = [
     name: 'Esterno Duomo',
     nameEn: 'Cathedral Exterior',
     panorama: '/assets/panoramas/test-panorama4.jpg',
-    thumbnail: 'https://picsum.photos/seed/duomo2/200/120',
+    thumbnail: '/assets/thumbnails/thumb-esterno.jpg',
     mapPos: { x: 50, y: 93 },
     type: '360',
     hotspots: [
@@ -68,7 +68,7 @@ const SCENES: Scene[] = [
     name: 'Abside & Coro',
     nameEn: 'Apse & Choir',
     panorama: '/assets/panoramas/test-panorama5.jpg',
-    thumbnail: 'https://picsum.photos/seed/abside/200/120',
+    thumbnail: '/assets/thumbnails/thumb-abside.jpg',
     mapPos: { x: 50, y: 20 },
     type: '360',
     hotspots: [
@@ -88,7 +88,7 @@ const SCENES: Scene[] = [
     name: 'Cripta di S. Geminiano',
     nameEn: 'Crypt of St. Geminianus',
     panorama: '/assets/panoramas/test-panorama6.jpg',
-    thumbnail: 'https://picsum.photos/seed/cripta/200/120',
+    thumbnail: '/assets/thumbnails/thumb-cripta.jpg',
     mapPos: { x: 50, y: 45 },
     type: '360',
     hotspots: [
@@ -108,7 +108,7 @@ const SCENES: Scene[] = [
     name: 'Porta Regia',
     nameEn: 'Royal Portal',
     panorama: '/assets/panoramas/test-panorama7.jpg',
-    thumbnail: 'https://picsum.photos/seed/portareg/200/120',
+    thumbnail: '/assets/thumbnails/thumb-porta-regia.jpg',
     mapPos: { x: 80, y: 60 },
     type: '360',
     hotspots: [
