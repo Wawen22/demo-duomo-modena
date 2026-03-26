@@ -34,12 +34,12 @@ Hotspot multimediali posizionati strategicamente che offrono:
 Mappa interattiva integrata con indicatore di direzione in tempo reale (bussola digitale), per aiutare il visitatore a contestualizzare la propria posizione all'interno della struttura.
 
 ---
-
+ 
 ## 🚀 Roadmap: Possibili Miglioramenti e Idee
 *Per rendere il progetto unico nel panorama museale:*
 
 - **Audio-Guida Emozionale:** Narrazione audio professionale multilingua attivabile sui singoli POI.
-- **Time-Travel Mode:** Funzionalità per confrontare la vista attuale con ricostruzioni storiche o foto d'epoca del Duomo.
+- **Time-Travel Mode:** Funzionalità per confrontare la vista attuale con ricostruzioni storiche o foto d'epoca del Duomo. 
 - **Dettagli in GigaPixel:** Integrazione di foto ad altissima risoluzione per esplorare i bassorilievi con uno zoom microscopico.
 - **Integrazione Eventi:** Pannello informativo in tempo reale su messe, concerti d'organo e visite guidate speciali.
 
@@ -65,3 +65,4 @@ Sullo schermo del totem interattivo sarà sempre presente un **QR Code dinamico*
 ---
 
 **Nota Finale:** Questa soluzione non è solo uno strumento informativo, ma un asset di marketing territoriale che posiziona il Duomo di Modena come un'eccellenza digitale nel patrimonio culturale italiano.
+
