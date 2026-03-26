@@ -374,6 +374,14 @@ const App: React.FC = () => {
     return () => document.removeEventListener('fullscreenchange', h);
   }, []);
 
+  // ── Preload panoramiche in background (riempie la cache del browser) ──
+  useEffect(() => {
+    SCENES.forEach(scene => {
+      const img = new Image();
+      img.src = scene.panorama;
+    });
+  }, []);
+
   // ── Pannellum init (reinit ad ogni cambio scena) ──
   useEffect(() => {
     const initViewer = () => {
@@ -411,14 +419,10 @@ const App: React.FC = () => {
         })),
       });
 
-      // Listener load: nasconde l'overlay con minimo 700ms (evita flash su file veloci)
+      // Listener load: nasconde l'overlay non appena Pannellum ha finito
       viewerRef.current.on('load', () => {
-        const elapsed = Date.now() - loadStartRef.current;
-        const delay   = Math.max(0, 700 - elapsed);
-        setTimeout(() => {
-          isLoadingRef.current = false;
-          setIsLoadingScene(false);
-        }, delay);
+        isLoadingRef.current = false;
+        setIsLoadingScene(false);
       });
     };
 
